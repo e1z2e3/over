@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: initial 100%;
+    background-image: url(eee.jpg);
+    background-position: center;
+    background-size: cover;
+    height: initial 109vh;
+}
+
+.navbar{
+    width: initial  1200px;
+    height: initial 75px;
+    margin: auto;
+}
+
+.icon{
+    width:initial 200px;
+    float: left;
+    height:initial 70px;
+}
+
+
+.logo{
+    color: #ff7200;
+    font-size:initial 35px;
+    font-family: Arial;
+    padding-left:initial 20px;
+    float: left;
+    padding-top:initial 10px;
+}
+
+.menu{
+    width:initial 400px;
+    float: left;
+    height:initial 70px;
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+ul li{
+    list-style: none;
+    margin-left:initial 62px;
+    margin-top:initial 27px;
+    font-size:initial 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-family:Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width:initial 330px;
+    float: left;
+    margin-left:initial 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width:initial 200px;
+    height:initial 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top:initial 13px;
+    color: black;
+    border-right: none;
+    font-size:initial 16px;
+    float: left;
+    padding:initial 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width:initial 100px;
+    height:initial 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width:initial 1200px;
+    height: auto;
+    margin: auto;
+    color: #000000;
+    position: relative;
+}
+
+.content .par{
+    padding-left:initial 20px;
+    padding-bottom:initial 25px;
+    font-family: arial;
+    letter-spacing:initial 1.2px;
+    line-height:initial 30px;
+}
+
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:initial 50px;
+    padding-left:initial 20px;
+    margin-top: 9%;
+    letter-spacing:initial 2px;
+}
+
+.content .cn{
+    width:initial 160px;
+    height:initial 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom:initial 10px;
+    margin-left:initial 20px;
+    font-size:initial 18px;
+    border-radius:initial 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content  .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #ffffff;
+}
+
+
+.content span{
+    color: #ff7200;
+    font-size:initial 60px;
+}
+
+.form{
+    width:initial 250px;
+    height:initial 380px;
+    background: rgb(26, 25, 25);
+    position: absolute;
+    top:initial -20px;
+    left:initial 870px;
+    border-radius:initial 10px;
+    padding:initial 25px;
+}   
+
+
+.form h2{
+    width:initial 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size:initial 22px;
+    background-color: #fff;
+    border-radius:initial 10px;
+    margin:initial 2px;
+    padding:initial 8px;
+}
+
+.form input{
+    width:initial 240px;
+    height:initial 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size:initial 15px;
+    letter-spacing:initial 1px;
+    margin-top:initial 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+   width:initial 240px;
+   height:initial 40px;
+   background: #ff7200;
+   border: none;
+   margin-top:initial 30px;
+   font-size:initial 18px;
+   border-radius:initial 10px;
+   cursor: pointer;
+   color: #ffffff;
+}
+
+.btnn:hover{
+    background: #ffffff;
+    color: #ff7200;
+}
